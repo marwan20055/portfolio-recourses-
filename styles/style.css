@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav>ul {
@@ -28,7 +29,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #474747;   
+    color: #474747;
 }
 
 .nav-title {
@@ -45,6 +46,74 @@ nav a {
     border: 0;
     color: #FFF;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
+    padding: 15px 35px;
+}
+
+/*Header Styles*/
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/*banner styles*/
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+    width: 500px;
+    padding-right: 40px;
+}
+
+.banner-content {
+    color: #757575;
+    color: var(--Dark-03, #757575);
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-top: 5px;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-bottom: 30px;
+}
+
+/*main section styles*/
+
+/*about section styles*/
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
